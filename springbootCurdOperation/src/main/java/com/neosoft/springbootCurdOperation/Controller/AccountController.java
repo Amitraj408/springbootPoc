@@ -14,4 +14,8 @@ public class AccountController {
     public String getMessage(){
         return "message";
     }
+    @GetMapping
+    public String getCode(){
+        return "code is fine smoothly ";
+    }
 }
