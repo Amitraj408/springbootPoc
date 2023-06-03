@@ -9,4 +9,13 @@ public class AccountController {
     public String getWelcomeMessage(){
         return "welcome to our project";
     }
+
+    @GetMapping("/message")
+    public String getMessage(){
+        return "message";
+    }
+    @GetMapping
+    public String getCode(){
+        return "code is fine smoothly ";
+    }
 }
